@@ -8,7 +8,7 @@ let randomNumber = '#';
 // set event listeners 
 generateButton.addEventListener('click', ()=> {
     let randomNumber = Math.floor(Math.random() * 100);
-    
+    randomNumberDisplay.textContent = randomNumber;
 });
 
 // get user input
