@@ -6,7 +6,10 @@ const randomNumberDisplay = document.getElementById('random-num');
 let randomNumber = '#';
 
 // set event listeners 
-generateButton.addEventListener('click', )
+generateButton.addEventListener('click', ()=> {
+    let randomNumber = Math.floor(Math.random() * 100);
+    
+});
 
 // get user input
 // use user input to update state 
